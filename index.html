@@ -24,10 +24,10 @@
       .pagination a {
         float: left;
         text-decoration: none;
-        padding: 10px 20px;
+        padding: 0.6vw 1.2vw;
         margin-right: 0px;
         border: 1px solid #dae;
-        margin-left: 10px;
+        margin-left: 1vw;
         color: black;
         transition: background-color 0.3s;
       }
@@ -44,6 +44,12 @@
       .pagination a:last-child {
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
+      }
+      @media screen and (max-width: 568px) {
+        .pagination a {
+          margin-left: 0;
+          padding: 0.6vw 0.6vw;
+        }
       }
     </style>
   </head>
