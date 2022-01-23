@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>SURPRISE</title>
+    <style>
+      * {
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      .pagination {
+        position: fixed;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .pagination a {
+        float: left;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin-right: 0px;
+        border: 1px solid #dae;
+        margin-left: 10px;
+        color: black;
+        transition: background-color 0.3s;
+      }
+      .pagination a:hover {
+        background-color: #dae;
+      }
+      .pagination .active {
+        background-color: #7b3d7b;
+      }
+      .pagination a:first-child {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      .pagination a:last-child {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a href="#" class="active">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="">5</a>
+      <a href="">6</a>
+      <a href="">7</a>
+      <a href="#">&raquo;</a>
+    </div>
+  </body>
+</html>
